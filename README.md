@@ -1,5 +1,5 @@
 # Parcel Cost Calculator
-    #### Video Demo:  <https://youtu.be/MtpEIZ-MmwY>
+    #### Video Demo:  https://youtu.be/MtpEIZ-MmwY
 ## Description:
 This program calculates the shipping cost and arrival time for parcels. The computation is based on the geodesic distance between the origin and destination and the parcel's weight. By default, the program is created for use in Kenya and takes two Kenyan towns as the origin and the destination. Parcel delivery services are common in Kenya but are yet to experience the full benefits of computers-based estimations of distance, costs, and time. The [geopy](https://pypi.org/project/geopy/) python module obtains the geodesic distance between two points. The program implements a rudimentary calculation of distances to obtain a rough estimate of distances between two points. Kenya does not have complex home and office addresses, hence the preference for estimates rather than precise distance measurements.
 
